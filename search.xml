@@ -99,6 +99,25 @@
     
     
     <entry>
+      <title>电影天堂爬虫各种错误分析</title>
+      <link href="/2022/112941019.html"/>
+      <url>/2022/112941019.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="电影天堂爬虫各种错误分析"><a href="#电影天堂爬虫各种错误分析" class="headerlink" title="电影天堂爬虫各种错误分析"></a><strong>电影天堂爬虫各种错误分析</strong></h1><h2 id="1、request库"><a href="#1、request库" class="headerlink" title="1、request库"></a>1、request库</h2><p>默认会使用自己猜测的编码方式将抓取下来的网页进行解码，然后储存到text中，因为电影天堂的编码方式与request库猜测的编码方式不同，所以会出现乱码。</p><h2 id="2、map函数"><a href="#2、map函数" class="headerlink" title="2、map函数"></a>2、map函数</h2><p>map函数会自动将主域名添加到爬取的地址中，形成一个完整的网址</p><p>示例代码如下：</p><pre class=" language-Python"><code class="language-Python">movie_links = html.xpath("//table[@class='tbspan']//a/@href")movie_links = map(lambda url: BASE_URL + url, movie_links)</code></pre><h2 id="3、xpath去掉空格，换行符等"><a href="#3、xpath去掉空格，换行符等" class="headerlink" title="3、xpath去掉空格，换行符等"></a>3、xpath去掉空格，换行符等</h2><p>示例代码如下：</p><pre class=" language-Python"><code class="language-Python">item.xpath('normalize-space(./div[@class="tags"])')item.xpath('./div[@class="tags"]').strip()</code></pre><h2 id="4、字典"><a href="#4、字典" class="headerlink" title="4、字典"></a>4、字典</h2><p>字典中的数据不能连续访问，代码如下：</p><pre class=" language-Python"><code class="language-Python">info = {"name": "李白", "years": "唐"}print(info["name", "years"]) #连续访问会出错 print(info["name"])print(info["years"])</code></pre><h2 id="5、常见请求头信息："><a href="#5、常见请求头信息：" class="headerlink" title="5、常见请求头信息："></a>5、常见请求头信息：</h2><p>Accept： 表示客户端可以接受的数据类型；</p><p>Referer： 表示请求发起时，浏览器地址栏中的地址；</p><p>User-Agent：表示浏览器信息；</p><p>Host：表示请求时的服务器 ip 地址和端口号。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> python网络爬虫 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JavaSE知识点总结</title>
       <link href="/2022/112521774.html"/>
       <url>/2022/112521774.html</url>
