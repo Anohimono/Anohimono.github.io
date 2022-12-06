@@ -4,25 +4,6 @@
   
     
     <entry>
-      <title>Servlet</title>
-      <link href="/2022/112955715.html"/>
-      <url>/2022/112955715.html</url>
-      
-        <content type="html"><![CDATA[<h3 id="Servlet"><a href="#Servlet" class="headerlink" title="Servlet"></a>Servlet</h3><h4 id="1-Servlet技术"><a href="#1-Servlet技术" class="headerlink" title="1.Servlet技术"></a>1.Servlet技术</h4><h4 id="2-ServletConfig类"><a href="#2-ServletConfig类" class="headerlink" title="2.ServletConfig类"></a>2.ServletConfig类</h4><p>​ServletConfig类其实就是Servlet的配置信息类</p><h5 id="a-ServletConfig类的三大作用："><a href="#a-ServletConfig类的三大作用：" class="headerlink" title="a)ServletConfig类的三大作用："></a>a)ServletConfig类的三大作用：</h5><p>​</p><h4 id="3-ServletContext类"><a href="#3-ServletContext类" class="headerlink" title="3.ServletContext类"></a>3.ServletContext类</h4><h5 id="3-1-什么是ServletContext"><a href="#3-1-什么是ServletContext" class="headerlink" title="3.1 什么是ServletContext?"></a>3.1 什么是ServletContext?</h5><p>​① ServletContext是一个接口，表示Servlet上下文对象；</p><p>​② 一个web工程，只有一个ServletContext对象实例；</p><p>​③ ServletContext对象是一个域对象（tip：域对象是指在一定范围内可以数据共享的对象）</p><p>​④ ServletContext是在web工程部署是创建，在web工程停止时销毁</p><p>Map和域对象的区别</p><table><thead><tr><th></th><th>存储数据</th><th>取出数据</th><th>删除数据</th></tr></thead><tbody><tr><td>Map</td><td>put()</td><td>get()</td><td>remove()</td></tr><tr><td>域对象</td><td>setAttribute()</td><td>getAttribute()</td><td>removeAttribute()</td></tr></tbody></table><h5 id="3-2-ServletContext类的四个作用"><a href="#3-2-ServletContext类的四个作用" class="headerlink" title="3.2  ServletContext类的四个作用"></a>3.2  ServletContext类的四个作用</h5><p>​㈠、获取web.xml中配置的上下文参数context-parma（Tip：用户名和密码等数据）</p><p>​㈡、获取当前工程的路径</p><p>​㈢、获取当前工程在服务器硬盘上的绝对路径</p><p>​㈣、像Map一样存储数据</p><h4 id="4-常见响应码说明"><a href="#4-常见响应码说明" class="headerlink" title="4.常见响应码说明"></a>4.常见响应码说明</h4><p>​200表示请求成功</p><p>​302表示重定向</p><p>​404表示服务器已收到请求，但是所请求的数据不存在（请求地址错误）</p><p>​500表示服务器已收到请求，但服务器内部错误（代码出现错误）</p><p>​</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> JavaWeb </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Mybatis-Plus</title>
       <link href="/2022/112960289.html"/>
       <url>/2022/112960289.html</url>
@@ -34,6 +15,25 @@
         <tags>
             
             <tag> mybatis-plus </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Servlet</title>
+      <link href="/2022/112955715.html"/>
+      <url>/2022/112955715.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="Servlet"><a href="#Servlet" class="headerlink" title="Servlet"></a>Servlet</h3><h4 id="1-Servlet技术"><a href="#1-Servlet技术" class="headerlink" title="1.Servlet技术"></a>1.Servlet技术</h4><h4 id="2-ServletConfig类"><a href="#2-ServletConfig类" class="headerlink" title="2.ServletConfig类"></a>2.ServletConfig类</h4><p>​ServletConfig类其实就是Servlet的配置信息类</p><h5 id="a-ServletConfig类的三大作用："><a href="#a-ServletConfig类的三大作用：" class="headerlink" title="a)ServletConfig类的三大作用："></a>a)ServletConfig类的三大作用：</h5><p>​</p><h4 id="3-ServletContext类"><a href="#3-ServletContext类" class="headerlink" title="3.ServletContext类"></a>3.ServletContext类</h4><h5 id="3-1-什么是ServletContext"><a href="#3-1-什么是ServletContext" class="headerlink" title="3.1 什么是ServletContext?"></a>3.1 什么是ServletContext?</h5><p>​① ServletContext是一个接口，表示Servlet上下文对象；</p><p>​② 一个web工程，只有一个ServletContext对象实例；</p><p>​③ ServletContext对象是一个域对象（tip：域对象是指在一定范围内可以数据共享的对象）</p><p>​④ ServletContext是在web工程部署是创建，在web工程停止时销毁</p><p>Map和域对象的区别</p><table><thead><tr><th></th><th>存储数据</th><th>取出数据</th><th>删除数据</th></tr></thead><tbody><tr><td>Map</td><td>put()</td><td>get()</td><td>remove()</td></tr><tr><td>域对象</td><td>setAttribute()</td><td>getAttribute()</td><td>removeAttribute()</td></tr></tbody></table><h5 id="3-2-ServletContext类的四个作用"><a href="#3-2-ServletContext类的四个作用" class="headerlink" title="3.2  ServletContext类的四个作用"></a>3.2  ServletContext类的四个作用</h5><p>​㈠、获取web.xml中配置的上下文参数context-parma（Tip：用户名和密码等数据）</p><p>​㈡、获取当前工程的路径</p><p>​㈢、获取当前工程在服务器硬盘上的绝对路径</p><p>​㈣、像Map一样存储数据</p><h4 id="4-常见响应码说明"><a href="#4-常见响应码说明" class="headerlink" title="4.常见响应码说明"></a>4.常见响应码说明</h4><p>​200表示请求成功</p><p>​302表示重定向</p><p>​404表示服务器已收到请求，但是所请求的数据不存在（请求地址错误）</p><p>​500表示服务器已收到请求，但服务器内部错误（代码出现错误）</p><p>​</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> JavaWeb </tag>
             
         </tags>
       
