@@ -4,39 +4,38 @@
   
     
     <entry>
-      <title></title>
-      <link href="/2024/01052.html"/>
-      <url>/2024/01052.html</url>
+      <title>个人博客系统问题总结</title>
+      <link href="/2024/01064.html"/>
+      <url>/2024/01064.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="个人博客系统总结"><a href="#个人博客系统总结" class="headerlink" title="个人博客系统总结"></a>个人博客系统总结</h2><h4 id="1、logger-error报错"><a href="#1、logger-error报错" class="headerlink" title="1、logger.error报错"></a>1、logger.error报错</h4><p>报错信息：Cannot resolve method ‘error’ in ‘Logger’</p><p>报错原因：导包错误（import java.util.logging.Logger;）</p><p>修改方法：导入包（import org.slf4j.Logger;）</p><h4 id="2、Junit-Before-After-BeforeClass-AfterClass-控制台不输出"><a href="#2、Junit-Before-After-BeforeClass-AfterClass-控制台不输出" class="headerlink" title="2、Junit @Before @After @BeforeClass @AfterClass 控制台不输出"></a>2、Junit @Before @After @BeforeClass @AfterClass 控制台不输出</h4><p>进行如下替换即可 </p><p>@Before——@BeforeEach</p><p>@After——@AfterEach</p><p>@BeforeClass——@BeforeAll</p><p>@AfterClass——@AfterAll</p><p>BeforeAll和AfterAll的方法必须是静态方法，因为他希望每个类的只初始化一次 </p><h4 id="3、-Entity注解"><a href="#3、-Entity注解" class="headerlink" title="3、@Entity注解"></a>3、@Entity注解</h4><ol><li><p>导包</p><pre class=" language-java"><code class="language-java"><span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span> https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>mvnrepository<span class="token punctuation">.</span>com<span class="token operator">/</span>artifact<span class="token operator">/</span>javax<span class="token punctuation">.</span>persistence<span class="token operator">/</span>persistence<span class="token operator">-</span>api <span class="token operator">--</span><span class="token operator">></span><span class="token operator">&lt;</span>dependency<span class="token operator">></span>    <span class="token operator">&lt;</span>groupId<span class="token operator">></span>javax<span class="token punctuation">.</span>persistence<span class="token operator">&lt;</span><span class="token operator">/</span>groupId<span class="token operator">></span>    <span class="token operator">&lt;</span>artifactId<span class="token operator">></span>persistence<span class="token operator">-</span>api<span class="token operator">&lt;</span><span class="token operator">/</span>artifactId<span class="token operator">></span>    <span class="token operator">&lt;</span>version<span class="token operator">></span><span class="token number">1.0</span><span class="token operator">&lt;</span><span class="token operator">/</span>version<span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>dependency<span class="token operator">></span></code></pre></li><li><p>@Entity是指这个类映射到数据库表， 当你不使用这个类（被注解的类）时，后台不会对其进行处理，只有当你从数据库读取数据时，由于你要读取的表映射有<a href="https://so.csdn.net/so/search?q=%E5%AE%9E%E4%BD%93%E7%B1%BB&amp;spm=1001.2101.3001.7020">实体类</a>（被@Entity注释的）， 那么后台应该会自动帮你实例化一个对象， 然后将数据库中的数据填充到对象中</p></li><li><p>avax.persistence这个包的作用是持久化，集体的说就是在实体类中进行元数据标签的作用，就是使得实体类与数据库中的表建立映射关系</p><pre class=" language-xml"><code class="language-xml">   还有一个点就是JPA与hibernate的区别， JPA不等同于hibernate，Hibernate 是作为JPA的一种实现， JPA的注解已经是hibernate的核心了，hibernate只是提供了一些补充，JPA和hibernate也不是俩套注解，hibernate对jpa的支持够足量的，在使用hibernate注解建议使用jpa</code></pre></li></ol><h4 id="4、JPA构建实体类无法生成数据表"><a href="#4、JPA构建实体类无法生成数据表" class="headerlink" title="4、JPA构建实体类无法生成数据表"></a>4、JPA构建实体类无法生成数据表</h4><p>一般解决方法：</p><ol><li>菜单栏view ——&gt; Tool Windows ——&gt;Persistence</li><li>右击项目，选择Assign Data Source</li><li>选择数据库</li></ol><p><strong>PS：若以上执行完成后依然无法创建数据表，可能是因为没有选择正确的数据库。</strong></p><h4 id="5、-Notblank用法"><a href="#5、-Notblank用法" class="headerlink" title="5、@Notblank用法"></a>5、@Notblank用法</h4><ol><li>引入依赖</li></ol><pre class=" language-xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>spring-boot-starter-validation<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span></code></pre><ol start="2"><li>实体类上加注解</li></ol><pre class=" language-java"><code class="language-java"> <span class="token annotation punctuation">@NotBlank</span><span class="token punctuation">(</span>message <span class="token operator">=</span> <span class="token string">"验证标准不能为空"</span><span class="token punctuation">)</span> <span class="token keyword">private</span> String trialStandardCode<span class="token punctuation">;</span></code></pre><ol start="3"><li>接收该类的controller方法里加注解 @Valid</li></ol><pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> R <span class="token function">insert</span><span class="token punctuation">(</span><span class="token annotation punctuation">@RequestBody</span> <span class="token annotation punctuation">@Valid</span> TrialItem trialItem<span class="token punctuation">)</span> <span class="token punctuation">{</span>    <span class="token keyword">return</span> null<span class="token punctuation">;</span><span class="token punctuation">}</span></code></pre>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> springboot 数据库 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>acwing算法基础</title>
+      <link href="/2024/01062.html"/>
+      <url>/2024/01062.html</url>
       
         <content type="html"><![CDATA[<h1 id="acwing算法基础"><a href="#acwing算法基础" class="headerlink" title="acwing算法基础"></a>acwing算法基础</h1><h3 id="DAY-01"><a href="#DAY-01" class="headerlink" title="DAY_01"></a>DAY_01</h3><h4 id="一、快速排序"><a href="#一、快速排序" class="headerlink" title="一、快速排序"></a>一、快速排序</h4><p>基本思路：</p><ol><li>首先任取一个分界点 x，设两个指针i,  j 分别位于数组两侧</li><li>让指针 i 逐渐向右移，若有 q[i] &gt; x，则指针 i 停止移动，指针 j 开始向左移，直到 q[j] &lt; x 时停止移动</li><li>交换 q[i] 与 q[j] ，i 指针继续向右移， j 指针继续向左移，重复过程 2 直到 i = j</li><li>此时数组被分为两部分，i 的左半部分（即 L - i）为 &lt;= x；j 的右半部分（即 j + 1 - R）为 &gt;= x，调用递归对左右两部分进行排序即可完成快速排序</li></ol><p>核心代码：</p><pre class=" language-c++"><code class="language-c++">void quick_sort(int q[], int l, int r) {    if (l >= r) return;    //取一个分界点    int x = q[l]; // int x = q[r] | int x = q[(l + r) / 2]    int i = l - 1; int j = r + 1;    while(i < j) {        do i++; while(q[i] < x); // 当 i遍历到 q[i] > x 时停止         do j--; while(q[j] > x); // 当 j遍历到 q[j] < x 时停止         if(i < j) swap(q[i], q[j]); //若此时有 i < j，这交换 q[i], q[j]     }    quick_sort(q, l, i);    quick_sort(q, j + 1, r); }</code></pre><h4 id="二、归并排序"><a href="#二、归并排序" class="headerlink" title="二、归并排序"></a>二、归并排序</h4><p>基本思路:</p><ol><li>确定分界点 mid = (l + r) / 2</li><li>递归排序 left 和 right 两边</li><li>归并，left 和 right 合并</li></ol><p>核心代码：</p><pre class=" language-c++"><code class="language-c++">void merge_sort(int q[], int l, int r) {    if (l >= r) return;    int mid = l + r  >> 1;    cout<<mid<<" \n";    //递归排序左边和右边     merge_sort(q, l ,mid); merge_sort(q, mid + 1, r);    //需要一个数组用来存储比较后的数     int k = 0, i = l, j = mid + 1;    while(i <= mid && j <= r) {        if (q[i] <= q[j]) tmp[k++] = q[i++];        else tmp[k++] = q[j++];    }     //判断若左半边每循环完毕，则直接加入tmp数组，右半边同理     while(i <= mid) tmp[k++] = q[i++];    while(j <= r) tmp[k++] = q[j++];    //把 tmp中的结果拿回 q中     for (i = l, j = 0; i <= r; i++, j++) {        q[i] = tmp[j];    }}</code></pre>]]></content>
       
       
       
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2023/02030.html"/>
-      <url>/2023/02030.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="Navicat连接数据库报错：2003-解决办法-Can‘t-connect-to-MySQL-server-on-‘localhost‘-10061"><a href="#Navicat连接数据库报错：2003-解决办法-Can‘t-connect-to-MySQL-server-on-‘localhost‘-10061" class="headerlink" title="Navicat连接数据库报错：2003 解决办法 Can‘t connect to MySQL server on ‘localhost‘ (10061)"></a>Navicat连接数据库报错：2003 解决办法 Can‘t connect to MySQL server on ‘localhost‘ (10061)</h2><p>解决方法：</p><ol><li><p>查看服务</p><p>打开你的任务管理器，有一个直接进入服务的链接。当然其他方式也是可以找到服务的。</p><p><img src="C:\Users\Bumble\Pictures\笔记图片\MySQL连接问题.png"></p><p>服务界面如图所示：</p><p><img src="C:\Users\Bumble\Pictures\笔记图片\MySQL连接问题2.png"></p></li><li><p>查看MySQL服务</p><p><img src="C:\Users\Bumble\Pictures\笔记图片\MySQL连接问题3.png"></p></li><li><p>分析原因</p><p>看看你的Mysql服务有没有打开</p><p>看MySQL服务的位置，是不是都有，如果都有是不是都启动了。每个人装的Mysql版本不一样，不一定显示的是一模一样的。</p><p>第三步做完，可以去试试看能不能连接上了。</p></li></ol>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2023/01201.html"/>
-      <url>/2023/01201.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="个人博客系统总结"><a href="#个人博客系统总结" class="headerlink" title="个人博客系统总结"></a>个人博客系统总结</h2><h4 id="1、logger-error报错"><a href="#1、logger-error报错" class="headerlink" title="1、logger.error报错"></a>1、logger.error报错</h4><p>报错信息：Cannot resolve method ‘error’ in ‘Logger’</p><p>报错原因：导包错误（import java.util.logging.Logger;）</p><p>修改方法：导入包（import org.slf4j.Logger;）</p><h4 id="2、Junit-Before-After-BeforeClass-AfterClass-控制台不输出"><a href="#2、Junit-Before-After-BeforeClass-AfterClass-控制台不输出" class="headerlink" title="2、Junit @Before @After @BeforeClass @AfterClass 控制台不输出"></a>2、Junit @Before @After @BeforeClass @AfterClass 控制台不输出</h4><p>进行如下替换即可 </p><p>@Before——@BeforeEach</p><p>@After——@AfterEach</p><p>@BeforeClass——@BeforeAll</p><p>@AfterClass——@AfterAll</p><p>BeforeAll和AfterAll的方法必须是静态方法，因为他希望每个类的只初始化一次 </p><h4 id="3、-Entity注解"><a href="#3、-Entity注解" class="headerlink" title="3、@Entity注解"></a>3、@Entity注解</h4><ol><li><p>导包</p><pre class=" language-java"><code class="language-java"><span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span> https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>mvnrepository<span class="token punctuation">.</span>com<span class="token operator">/</span>artifact<span class="token operator">/</span>javax<span class="token punctuation">.</span>persistence<span class="token operator">/</span>persistence<span class="token operator">-</span>api <span class="token operator">--</span><span class="token operator">></span><span class="token operator">&lt;</span>dependency<span class="token operator">></span>    <span class="token operator">&lt;</span>groupId<span class="token operator">></span>javax<span class="token punctuation">.</span>persistence<span class="token operator">&lt;</span><span class="token operator">/</span>groupId<span class="token operator">></span>    <span class="token operator">&lt;</span>artifactId<span class="token operator">></span>persistence<span class="token operator">-</span>api<span class="token operator">&lt;</span><span class="token operator">/</span>artifactId<span class="token operator">></span>    <span class="token operator">&lt;</span>version<span class="token operator">></span><span class="token number">1.0</span><span class="token operator">&lt;</span><span class="token operator">/</span>version<span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>dependency<span class="token operator">></span></code></pre></li><li><p>@Entity是指这个类映射到数据库表， 当你不使用这个类（被注解的类）时，后台不会对其进行处理，只有当你从数据库读取数据时，由于你要读取的表映射有<a href="https://so.csdn.net/so/search?q=%E5%AE%9E%E4%BD%93%E7%B1%BB&amp;spm=1001.2101.3001.7020">实体类</a>（被@Entity注释的）， 那么后台应该会自动帮你实例化一个对象， 然后将数据库中的数据填充到对象中</p></li><li><p>avax.persistence这个包的作用是持久化，集体的说就是在实体类中进行元数据标签的作用，就是使得实体类与数据库中的表建立映射关系</p><pre class=" language-xml"><code class="language-xml">   还有一个点就是JPA与hibernate的区别， JPA不等同于hibernate，Hibernate 是作为JPA的一种实现， JPA的注解已经是hibernate的核心了，hibernate只是提供了一些补充，JPA和hibernate也不是俩套注解，hibernate对jpa的支持够足量的，在使用hibernate注解建议使用jpa</code></pre></li></ol><h4 id="4、JPA构建实体类无法生成数据表"><a href="#4、JPA构建实体类无法生成数据表" class="headerlink" title="4、JPA构建实体类无法生成数据表"></a>4、JPA构建实体类无法生成数据表</h4><p>一般解决方法：</p><ol><li>菜单栏view ——&gt; Tool Windows ——&gt;Persistence</li><li>右击项目，选择Assign Data Source</li><li>选择数据库</li></ol><p><strong>PS：若以上执行完成后依然无法创建数据表，可能是因为没有选择正确的数据库。</strong></p><h4 id="5、-Notblank用法"><a href="#5、-Notblank用法" class="headerlink" title="5、@Notblank用法"></a>5、@Notblank用法</h4><ol><li>引入依赖</li></ol><pre class=" language-xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>spring-boot-starter-validation<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span></code></pre><ol start="2"><li>实体类上加注解</li></ol><pre class=" language-java"><code class="language-java"> <span class="token annotation punctuation">@NotBlank</span><span class="token punctuation">(</span>message <span class="token operator">=</span> <span class="token string">"验证标准不能为空"</span><span class="token punctuation">)</span> <span class="token keyword">private</span> String trialStandardCode<span class="token punctuation">;</span></code></pre><ol start="3"><li>接收该类的controller方法里加注解 @Valid</li></ol><pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> R <span class="token function">insert</span><span class="token punctuation">(</span><span class="token annotation punctuation">@RequestBody</span> <span class="token annotation punctuation">@Valid</span> TrialItem trialItem<span class="token punctuation">)</span> <span class="token punctuation">{</span>    <span class="token keyword">return</span> null<span class="token punctuation">;</span><span class="token punctuation">}</span></code></pre>]]></content>
-      
-      
+        <tags>
+            
+            <tag> 数据结构 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -73,6 +72,25 @@
         <tags>
             
             <tag> mybatis-plus </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Navicat连接数据库报错解决方法</title>
+      <link href="/2022/112942096.html"/>
+      <url>/2022/112942096.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="Navicat连接数据库报错：2003-解决办法-Can‘t-connect-to-MySQL-server-on-‘localhost‘-10061"><a href="#Navicat连接数据库报错：2003-解决办法-Can‘t-connect-to-MySQL-server-on-‘localhost‘-10061" class="headerlink" title="Navicat连接数据库报错：2003 解决办法 Can‘t connect to MySQL server on ‘localhost‘ (10061)"></a>Navicat连接数据库报错：2003 解决办法 Can‘t connect to MySQL server on ‘localhost‘ (10061)</h2><p>解决方法：</p><ol><li><p>查看服务</p><p>打开你的任务管理器，有一个直接进入服务的链接。当然其他方式也是可以找到服务的。</p><p><img src="C:\Users\Bumble\Pictures\笔记图片\MySQL连接问题.png"></p><p>服务界面如图所示：</p><p><img src="C:\Users\Bumble\Pictures\笔记图片\MySQL连接问题2.png"></p></li><li><p>查看MySQL服务</p><p><img src="C:\Users\Bumble\Pictures\笔记图片\MySQL连接问题3.png"></p></li><li><p>分析原因</p><p>看看你的Mysql服务有没有打开</p><p>看MySQL服务的位置，是不是都有，如果都有是不是都启动了。每个人装的Mysql版本不一样，不一定显示的是一模一样的。</p><p>第三步做完，可以去试试看能不能连接上了。</p></li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Navicat 数据库 报错 </tag>
             
         </tags>
       
@@ -138,25 +156,6 @@
     
     
     <entry>
-      <title>电影天堂爬虫各种错误分析</title>
-      <link href="/2022/112941019.html"/>
-      <url>/2022/112941019.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="电影天堂爬虫各种错误分析"><a href="#电影天堂爬虫各种错误分析" class="headerlink" title="电影天堂爬虫各种错误分析"></a><strong>电影天堂爬虫各种错误分析</strong></h1><h2 id="1、request库"><a href="#1、request库" class="headerlink" title="1、request库"></a>1、request库</h2><p>默认会使用自己猜测的编码方式将抓取下来的网页进行解码，然后储存到text中，因为电影天堂的编码方式与request库猜测的编码方式不同，所以会出现乱码。</p><h2 id="2、map函数"><a href="#2、map函数" class="headerlink" title="2、map函数"></a>2、map函数</h2><p>map函数会自动将主域名添加到爬取的地址中，形成一个完整的网址</p><p>示例代码如下：</p><pre class=" language-Python"><code class="language-Python">movie_links = html.xpath("//table[@class='tbspan']//a/@href")movie_links = map(lambda url: BASE_URL + url, movie_links)</code></pre><h2 id="3、xpath去掉空格，换行符等"><a href="#3、xpath去掉空格，换行符等" class="headerlink" title="3、xpath去掉空格，换行符等"></a>3、xpath去掉空格，换行符等</h2><p>示例代码如下：</p><pre class=" language-Python"><code class="language-Python">item.xpath('normalize-space(./div[@class="tags"])')item.xpath('./div[@class="tags"]').strip()</code></pre><h2 id="4、字典"><a href="#4、字典" class="headerlink" title="4、字典"></a>4、字典</h2><p>字典中的数据不能连续访问，代码如下：</p><pre class=" language-Python"><code class="language-Python">info = {"name": "李白", "years": "唐"}print(info["name", "years"]) #连续访问会出错 print(info["name"])print(info["years"])</code></pre><h2 id="5、常见请求头信息："><a href="#5、常见请求头信息：" class="headerlink" title="5、常见请求头信息："></a>5、常见请求头信息：</h2><p>Accept： 表示客户端可以接受的数据类型；</p><p>Referer： 表示请求发起时，浏览器地址栏中的地址；</p><p>User-Agent：表示浏览器信息；</p><p>Host：表示请求时的服务器 ip 地址和端口号。</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> python网络爬虫 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>JQuery</title>
       <link href="/2022/112963260.html"/>
       <url>/2022/112963260.html</url>
@@ -168,6 +167,25 @@
         <tags>
             
             <tag> jQuery </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影天堂爬虫各种错误分析</title>
+      <link href="/2022/112941019.html"/>
+      <url>/2022/112941019.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="电影天堂爬虫各种错误分析"><a href="#电影天堂爬虫各种错误分析" class="headerlink" title="电影天堂爬虫各种错误分析"></a><strong>电影天堂爬虫各种错误分析</strong></h1><h2 id="1、request库"><a href="#1、request库" class="headerlink" title="1、request库"></a>1、request库</h2><p>默认会使用自己猜测的编码方式将抓取下来的网页进行解码，然后储存到text中，因为电影天堂的编码方式与request库猜测的编码方式不同，所以会出现乱码。</p><h2 id="2、map函数"><a href="#2、map函数" class="headerlink" title="2、map函数"></a>2、map函数</h2><p>map函数会自动将主域名添加到爬取的地址中，形成一个完整的网址</p><p>示例代码如下：</p><pre class=" language-Python"><code class="language-Python">movie_links = html.xpath("//table[@class='tbspan']//a/@href")movie_links = map(lambda url: BASE_URL + url, movie_links)</code></pre><h2 id="3、xpath去掉空格，换行符等"><a href="#3、xpath去掉空格，换行符等" class="headerlink" title="3、xpath去掉空格，换行符等"></a>3、xpath去掉空格，换行符等</h2><p>示例代码如下：</p><pre class=" language-Python"><code class="language-Python">item.xpath('normalize-space(./div[@class="tags"])')item.xpath('./div[@class="tags"]').strip()</code></pre><h2 id="4、字典"><a href="#4、字典" class="headerlink" title="4、字典"></a>4、字典</h2><p>字典中的数据不能连续访问，代码如下：</p><pre class=" language-Python"><code class="language-Python">info = {"name": "李白", "years": "唐"}print(info["name", "years"]) #连续访问会出错 print(info["name"])print(info["years"])</code></pre><h2 id="5、常见请求头信息："><a href="#5、常见请求头信息：" class="headerlink" title="5、常见请求头信息："></a>5、常见请求头信息：</h2><p>Accept： 表示客户端可以接受的数据类型；</p><p>Referer： 表示请求发起时，浏览器地址栏中的地址；</p><p>User-Agent：表示浏览器信息；</p><p>Host：表示请求时的服务器 ip 地址和端口号。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> python网络爬虫 </tag>
             
         </tags>
       
