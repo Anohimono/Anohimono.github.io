@@ -1,27 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Sakuraの博客</title>
+  <title>小十二の博客</title>
   
-  <subtitle>Sakuraの博客</subtitle>
+  <subtitle>小十二の博客</subtitle>
   <link href="https://anohimono.github.io/atom.xml" rel="self"/>
   
   <link href="https://anohimono.github.io/"/>
-  <updated>2024-01-31T02:57:49.123Z</updated>
+  <updated>2024-03-06T16:43:05.728Z</updated>
   <id>https://anohimono.github.io/</id>
   
   <author>
-    <name>Sakura.G</name>
+    <name>十二</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SpringBoot + Dubbo + Zookeeper</title>
+    <link href="https://anohimono.github.io/2024/03061.html"/>
+    <id>https://anohimono.github.io/2024/03061.html</id>
+    <published>2024-03-06T06:08:34.049Z</published>
+    <updated>2024-03-06T16:43:05.728Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;SpringBoot-Dubbo-Zookeeper&quot;&gt;&lt;a href=&quot;#SpringBoot-Dubbo-Zookeeper&quot; class=&quot;headerlink&quot; title=&quot;SpringBoot + Dubbo +</summary>
+        
+      
+    
+    
+    
+    
+    <category term="SpringBoot Dubbo Zookeeper" scheme="https://anohimono.github.io/tags/SpringBoot-Dubbo-Zookeeper/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringCloud</title>
+    <link href="https://anohimono.github.io/2024/03062.html"/>
+    <id>https://anohimono.github.io/2024/03062.html</id>
+    <published>2024-03-06T06:08:25.696Z</published>
+    <updated>2024-03-06T16:42:56.426Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Spring-Cloud&quot;&gt;&lt;a href=&quot;#Spring-Cloud&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="SpringCloud" scheme="https://anohimono.github.io/tags/SpringCloud/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JVM学习</title>
+    <link href="https://anohimono.github.io/2024/03052.html"/>
+    <id>https://anohimono.github.io/2024/03052.html</id>
+    <published>2024-03-05T09:32:55.000Z</published>
+    <updated>2024-03-06T14:34:32.125Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;JVM学习&quot;&gt;&lt;a href=&quot;#JVM学习&quot; class=&quot;headerlink&quot; title=&quot;JVM学习&quot;&gt;&lt;/a&gt;JVM学习&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;JVM的位置&lt;/p&gt;
+&lt;p&gt; &lt;img</summary>
+        
+      
+    
+    
+    
+    
+    <category term="JVM" scheme="https://anohimono.github.io/tags/JVM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java多线程</title>
+    <link href="https://anohimono.github.io/2024/03045.html"/>
+    <id>https://anohimono.github.io/2024/03045.html</id>
+    <published>2024-03-04T15:32:43.292Z</published>
+    <updated>2024-03-06T04:44:56.245Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Java多线程&quot;&gt;&lt;a href=&quot;#Java多线程&quot; class=&quot;headerlink&quot; title=&quot;Java多线程&quot;&gt;&lt;/a&gt;Java多线程&lt;/h2&gt;&lt;h5 id=&quot;1、什么是多线程？&quot;&gt;&lt;a href=&quot;#1、什么是多线程？&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="多线程" scheme="https://anohimono.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>MySQL连接错误2003处理方法</title>
-    <link href="https://anohimono.github.io/2024/013160289.html"/>
-    <id>https://anohimono.github.io/2024/013160289.html</id>
+    <link href="https://anohimono.github.io/2024/013160.html"/>
+    <id>https://anohimono.github.io/2024/013160.html</id>
     <published>2024-01-31T03:00:55.000Z</published>
-    <updated>2024-01-31T02:57:49.123Z</updated>
+    <updated>2024-03-05T13:49:49.801Z</updated>
     
     
       
@@ -44,14 +138,14 @@
     <link href="https://anohimono.github.io/2024/01312.html"/>
     <id>https://anohimono.github.io/2024/01312.html</id>
     <published>2024-01-31T02:55:55.000Z</published>
-    <updated>2024-01-31T02:55:24.618Z</updated>
+    <updated>2024-03-05T16:59:14.895Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;C-语言中-const-与-define-的区别&quot;&gt;&lt;a href=&quot;#C-语言中-const-与-define-的区别&quot; class=&quot;headerlink&quot; title=&quot;C 语言中 const 与 #define 的区别&quot;&gt;&lt;/a&gt;C 语言中 const</summary>
+    <summary type="html">&lt;h2 id=&quot;C-语言中-const-与-define-的区别&quot;&gt;&lt;a href=&quot;#C-语言中-const-与-define-的区别&quot; class=&quot;headerlink&quot; title=&quot;C 语言中 const 与 #define 的区别&quot;&gt;&lt;/a&gt;C 语言中 const</summary>
         
       
     
@@ -67,7 +161,7 @@
     <link href="https://anohimono.github.io/2024/01064.html"/>
     <id>https://anohimono.github.io/2024/01064.html</id>
     <published>2024-01-06T09:45:55.000Z</published>
-    <updated>2024-01-06T09:30:23.813Z</updated>
+    <updated>2024-03-06T15:19:57.600Z</updated>
     
     
       
@@ -90,7 +184,7 @@
     <link href="https://anohimono.github.io/2024/01062.html"/>
     <id>https://anohimono.github.io/2024/01062.html</id>
     <published>2024-01-06T09:32:55.000Z</published>
-    <updated>2024-01-29T08:31:57.595Z</updated>
+    <updated>2024-02-18T09:12:10.432Z</updated>
     
     
       
@@ -113,14 +207,14 @@
     <link href="https://anohimono.github.io/2022/120847658.html"/>
     <id>https://anohimono.github.io/2022/120847658.html</id>
     <published>2022-12-08T10:03:23.000Z</published>
-    <updated>2022-12-11T06:54:38.234Z</updated>
+    <updated>2024-03-06T15:56:59.905Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;hexo添加豆瓣小插件&quot;&gt;&lt;a href=&quot;#hexo添加豆瓣小插件&quot; class=&quot;headerlink&quot; title=&quot;hexo添加豆瓣小插件&quot;&gt;&lt;/a&gt;hexo添加豆瓣小插件&lt;/h2&gt;&lt;p&gt;一个在 &lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;hexo添加豆瓣小插件&quot;&gt;&lt;a href=&quot;#hexo添加豆瓣小插件&quot; class=&quot;headerlink&quot; title=&quot;hexo添加豆瓣小插件&quot;&gt;&lt;/a&gt;hexo添加豆瓣小插件&lt;/h1&gt;&lt;h2 id=&quot;1、原理&quot;&gt;&lt;a href=&quot;#1、原理&quot;</summary>
         
       
     
@@ -133,10 +227,10 @@
   
   <entry>
     <title>Mybatis-Plus</title>
-    <link href="https://anohimono.github.io/2022/112960289.html"/>
-    <id>https://anohimono.github.io/2022/112960289.html</id>
+    <link href="https://anohimono.github.io/2022/11296.html"/>
+    <id>https://anohimono.github.io/2022/11296.html</id>
     <published>2022-11-29T10:32:55.000Z</published>
-    <updated>2022-12-01T09:00:20.550Z</updated>
+    <updated>2024-03-05T08:38:15.831Z</updated>
     
     
       
@@ -151,6 +245,52 @@
     
     
     <category term="mybatis-plus" scheme="https://anohimono.github.io/tags/mybatis-plus/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Servlet</title>
+    <link href="https://anohimono.github.io/2022/11295.html"/>
+    <id>https://anohimono.github.io/2022/11295.html</id>
+    <published>2022-11-29T10:32:55.000Z</published>
+    <updated>2024-03-06T15:17:59.590Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Servlet&quot;&gt;&lt;a href=&quot;#Servlet&quot; class=&quot;headerlink&quot; title=&quot;Servlet&quot;&gt;&lt;/a&gt;Servlet&lt;/h3&gt;&lt;h4 id=&quot;1-Servlet技术&quot;&gt;&lt;a href=&quot;#1-Servlet技术&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="JavaWeb" scheme="https://anohimono.github.io/tags/JavaWeb/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SSM整合</title>
+    <link href="https://anohimono.github.io/2022/112942096.html"/>
+    <id>https://anohimono.github.io/2022/112942096.html</id>
+    <published>2022-11-29T10:32:55.000Z</published>
+    <updated>2024-03-06T15:20:21.988Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;1、Spring&quot;&gt;&lt;a href=&quot;#1、Spring&quot; class=&quot;headerlink&quot; title=&quot;1、Spring&quot;&gt;&lt;/a&gt;1、Spring&lt;/h1&gt;&lt;h4 id=&quot;1-1、简介&quot;&gt;&lt;a href=&quot;#1-1、简介&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="SSM" scheme="https://anohimono.github.io/tags/SSM/"/>
     
   </entry>
   
@@ -178,64 +318,18 @@
   </entry>
   
   <entry>
-    <title>Servlet</title>
-    <link href="https://anohimono.github.io/2022/112955715.html"/>
-    <id>https://anohimono.github.io/2022/112955715.html</id>
+    <title>Jquery学习</title>
+    <link href="https://anohimono.github.io/2022/112913.html"/>
+    <id>https://anohimono.github.io/2022/112913.html</id>
     <published>2022-11-29T10:32:55.000Z</published>
-    <updated>2022-12-02T12:02:20.682Z</updated>
+    <updated>2024-03-05T17:00:09.238Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;Servlet&quot;&gt;&lt;a href=&quot;#Servlet&quot; class=&quot;headerlink&quot; title=&quot;Servlet&quot;&gt;&lt;/a&gt;Servlet&lt;/h3&gt;&lt;h4 id=&quot;1-Servlet技术&quot;&gt;&lt;a href=&quot;#1-Servlet技术&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="JavaWeb" scheme="https://anohimono.github.io/tags/JavaWeb/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SSM整合</title>
-    <link href="https://anohimono.github.io/2022/112942096.html"/>
-    <id>https://anohimono.github.io/2022/112942096.html</id>
-    <published>2022-11-29T10:32:55.000Z</published>
-    <updated>2024-01-06T09:31:27.163Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;1、Spring&quot;&gt;&lt;a href=&quot;#1、Spring&quot; class=&quot;headerlink&quot; title=&quot;1、Spring&quot;&gt;&lt;/a&gt;1、Spring&lt;/h1&gt;&lt;h4 id=&quot;1-1、简介&quot;&gt;&lt;a href=&quot;#1-1、简介&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="JavaSE" scheme="https://anohimono.github.io/tags/JavaSE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JQuery</title>
-    <link href="https://anohimono.github.io/2022/112963260.html"/>
-    <id>https://anohimono.github.io/2022/112963260.html</id>
-    <published>2022-11-29T10:32:55.000Z</published>
-    <updated>2022-12-08T04:07:18.807Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;1、什么是jQuery？&quot;&gt;&lt;a href=&quot;#1、什么是jQuery？&quot; class=&quot;headerlink&quot; title=&quot;1、什么是jQuery？&quot;&gt;&lt;/a&gt;1、什么是jQuery？&lt;/h2&gt;&lt;h4 id=&quot;1-1、概述&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;Jquery学习&quot;&gt;&lt;a href=&quot;#Jquery学习&quot; class=&quot;headerlink&quot; title=&quot;Jquery学习&quot;&gt;&lt;/a&gt;Jquery学习&lt;/h1&gt;&lt;h2 id=&quot;1、什么是jQuery？&quot;&gt;&lt;a href=&quot;#1、什么是jQuery？&quot;</summary>
         
       
     
@@ -271,10 +365,10 @@
   
   <entry>
     <title>JavaSE知识点总结</title>
-    <link href="https://anohimono.github.io/2022/112521774.html"/>
-    <id>https://anohimono.github.io/2022/112521774.html</id>
+    <link href="https://anohimono.github.io/2022/112521.html"/>
+    <id>https://anohimono.github.io/2022/112521.html</id>
     <published>2022-11-24T16:00:00.000Z</published>
-    <updated>2023-01-31T08:56:29.103Z</updated>
+    <updated>2024-03-06T14:34:25.959Z</updated>
     
     
       
@@ -288,7 +382,7 @@
     
     
     
-    <category term="Java" scheme="https://anohimono.github.io/tags/Java/"/>
+    <category term="JavaSE" scheme="https://anohimono.github.io/tags/JavaSE/"/>
     
   </entry>
   
