@@ -6,7 +6,7 @@
   <link href="https://anohimono.github.io/atom.xml" rel="self"/>
   
   <link href="https://anohimono.github.io/"/>
-  <updated>2024-03-09T06:26:17.477Z</updated>
+  <updated>2024-03-16T14:47:22.107Z</updated>
   <id>https://anohimono.github.io/</id>
   
   <author>
@@ -17,11 +17,149 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Redis的缓存穿透、缓存击穿、缓存雪崩</title>
+    <link href="https://anohimono.github.io/2024/03161.html"/>
+    <id>https://anohimono.github.io/2024/03161.html</id>
+    <published>2024-03-16T14:40:36.884Z</published>
+    <updated>2024-03-16T14:47:22.107Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Redis的缓存穿透、缓存击穿、缓存雪崩&quot;&gt;&lt;a href=&quot;#Redis的缓存穿透、缓存击穿、缓存雪崩&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Redis" scheme="https://anohimono.github.io/tags/Redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>详解Redis的哨兵模式</title>
+    <link href="https://anohimono.github.io/2024/03163875.html"/>
+    <id>https://anohimono.github.io/2024/03163875.html</id>
+    <published>2024-03-16T06:50:23.552Z</published>
+    <updated>2024-03-16T14:42:47.139Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;详解Redis的哨兵机制&quot;&gt;&lt;a href=&quot;#详解Redis的哨兵机制&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Redis" scheme="https://anohimono.github.io/tags/Redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Redis学习</title>
+    <link href="https://anohimono.github.io/2024/031360077.html"/>
+    <id>https://anohimono.github.io/2024/031360077.html</id>
+    <published>2024-03-13T15:39:10.248Z</published>
+    <updated>2024-03-16T14:47:28.515Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Redis学习&quot;&gt;&lt;a href=&quot;#Redis学习&quot; class=&quot;headerlink&quot; title=&quot;Redis学习&quot;&gt;&lt;/a&gt;Redis学习&lt;/h1&gt;&lt;h2 id=&quot;常用数据类型&quot;&gt;&lt;a href=&quot;#常用数据类型&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Redis" scheme="https://anohimono.github.io/tags/Redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VMware下centos7开机登陆页面死循环问题详细解决</title>
+    <link href="https://anohimono.github.io/2024/031120573.html"/>
+    <id>https://anohimono.github.io/2024/031120573.html</id>
+    <published>2024-03-11T12:57:00.000Z</published>
+    <updated>2024-03-16T14:42:47.136Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;VMware下centos7开机登陆页面死循环问题详细解决&quot;&gt;&lt;a href=&quot;#VMware下centos7开机登陆页面死循环问题详细解决&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Linux" scheme="https://anohimono.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux学习</title>
+    <link href="https://anohimono.github.io/2024/031050376.html"/>
+    <id>https://anohimono.github.io/2024/031050376.html</id>
+    <published>2024-03-10T08:00:08.466Z</published>
+    <updated>2024-03-16T14:42:47.131Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Linux学习&quot;&gt;&lt;a href=&quot;#Linux学习&quot; class=&quot;headerlink&quot; title=&quot;Linux学习&quot;&gt;&lt;/a&gt;Linux学习&lt;/h1&gt;&lt;h2 id=&quot;入门概述&quot;&gt;&lt;a href=&quot;#入门概述&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Linux" scheme="https://anohimono.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>阿里云短信服务</title>
+    <link href="https://anohimono.github.io/2024/031012762.html"/>
+    <id>https://anohimono.github.io/2024/031012762.html</id>
+    <published>2024-03-09T16:23:49.873Z</published>
+    <updated>2024-03-16T14:47:46.659Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;阿里云短信服务&quot;&gt;&lt;a href=&quot;#阿里云短信服务&quot; class=&quot;headerlink&quot; title=&quot;阿里云短信服务&quot;&gt;&lt;/a&gt;阿里云短信服务&lt;/h2&gt;&lt;h3 id=&quot;1、了解阿里云用户权限操作&quot;&gt;&lt;a href=&quot;#1、了解阿里云用户权限操作&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="SpringBoot" scheme="https://anohimono.github.io/tags/SpringBoot/"/>
+    
+  </entry>
+  
+  <entry>
     <title>如何使用Navicat查看自己的数据库密码</title>
     <link href="https://anohimono.github.io/2024/030735801.html"/>
     <id>https://anohimono.github.io/2024/030735801.html</id>
     <published>2024-03-07T09:32:55.000Z</published>
-    <updated>2024-03-09T06:26:17.477Z</updated>
+    <updated>2024-03-16T14:48:13.881Z</updated>
     
     
       
@@ -230,7 +368,7 @@
     <link href="https://anohimono.github.io/2022/120847658.html"/>
     <id>https://anohimono.github.io/2022/120847658.html</id>
     <published>2022-12-08T10:03:23.000Z</published>
-    <updated>2024-03-06T15:56:59.905Z</updated>
+    <updated>2024-03-16T14:50:36.322Z</updated>
     
     
       
@@ -245,29 +383,6 @@
     
     
     <category term="matery主题优化" scheme="https://anohimono.github.io/tags/matery%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Servlet</title>
-    <link href="https://anohimono.github.io/2022/11295.html"/>
-    <id>https://anohimono.github.io/2022/11295.html</id>
-    <published>2022-11-29T10:32:55.000Z</published>
-    <updated>2024-03-06T15:17:59.590Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;Servlet&quot;&gt;&lt;a href=&quot;#Servlet&quot; class=&quot;headerlink&quot; title=&quot;Servlet&quot;&gt;&lt;/a&gt;Servlet&lt;/h3&gt;&lt;h4 id=&quot;1-Servlet技术&quot;&gt;&lt;a href=&quot;#1-Servlet技术&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="JavaWeb" scheme="https://anohimono.github.io/tags/JavaWeb/"/>
     
   </entry>
   
@@ -341,71 +456,25 @@
   </entry>
   
   <entry>
-    <title>电影天堂爬虫各种错误分析</title>
-    <link href="https://anohimono.github.io/2022/112941019.html"/>
-    <id>https://anohimono.github.io/2022/112941019.html</id>
+    <title>Servlet</title>
+    <link href="https://anohimono.github.io/2022/11295.html"/>
+    <id>https://anohimono.github.io/2022/11295.html</id>
     <published>2022-11-29T10:32:55.000Z</published>
-    <updated>2022-12-06T09:41:19.504Z</updated>
+    <updated>2024-03-06T15:17:59.590Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;电影天堂爬虫各种错误分析&quot;&gt;&lt;a href=&quot;#电影天堂爬虫各种错误分析&quot; class=&quot;headerlink&quot; title=&quot;电影天堂爬虫各种错误分析&quot;&gt;&lt;/a&gt;&lt;strong&gt;电影天堂爬虫各种错误分析&lt;/strong&gt;&lt;/h1&gt;&lt;h2</summary>
+    <summary type="html">&lt;h3 id=&quot;Servlet&quot;&gt;&lt;a href=&quot;#Servlet&quot; class=&quot;headerlink&quot; title=&quot;Servlet&quot;&gt;&lt;/a&gt;Servlet&lt;/h3&gt;&lt;h4 id=&quot;1-Servlet技术&quot;&gt;&lt;a href=&quot;#1-Servlet技术&quot;</summary>
         
       
     
     
     
     
-    <category term="python网络爬虫" scheme="https://anohimono.github.io/tags/python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Jquery学习</title>
-    <link href="https://anohimono.github.io/2022/112913.html"/>
-    <id>https://anohimono.github.io/2022/112913.html</id>
-    <published>2022-11-29T10:32:55.000Z</published>
-    <updated>2024-03-05T17:00:09.238Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Jquery学习&quot;&gt;&lt;a href=&quot;#Jquery学习&quot; class=&quot;headerlink&quot; title=&quot;Jquery学习&quot;&gt;&lt;/a&gt;Jquery学习&lt;/h1&gt;&lt;h2 id=&quot;1、什么是jQuery？&quot;&gt;&lt;a href=&quot;#1、什么是jQuery？&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="jQuery" scheme="https://anohimono.github.io/tags/jQuery/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaSE知识点总结</title>
-    <link href="https://anohimono.github.io/2022/112521.html"/>
-    <id>https://anohimono.github.io/2022/112521.html</id>
-    <published>2022-11-24T16:00:00.000Z</published>
-    <updated>2024-03-06T14:34:25.959Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;JavaSE知识点总结&quot;&gt;&lt;a href=&quot;#JavaSE知识点总结&quot; class=&quot;headerlink&quot; title=&quot;JavaSE知识点总结&quot;&gt;&lt;/a&gt;JavaSE知识点总结&lt;/h2&gt;&lt;h3 id=&quot;一、Java语言概述&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="JavaSE" scheme="https://anohimono.github.io/tags/JavaSE/"/>
+    <category term="JavaWeb" scheme="https://anohimono.github.io/tags/JavaWeb/"/>
     
   </entry>
   
