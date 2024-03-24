@@ -6,7 +6,7 @@
   <link href="https://anohimono.github.io/atom.xml" rel="self"/>
   
   <link href="https://anohimono.github.io/"/>
-  <updated>2024-03-17T08:39:03.882Z</updated>
+  <updated>2024-03-16T14:42:48.000Z</updated>
   <id>https://anohimono.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>详解Redis的哨兵模式</title>
+    <link href="https://anohimono.github.io/2024/03243875.html"/>
+    <id>https://anohimono.github.io/2024/03243875.html</id>
+    <published>2024-03-24T07:13:44.791Z</published>
+    <updated>2024-03-16T14:42:48.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;详解Redis的哨兵机制&quot;&gt;&lt;a href=&quot;#详解Redis的哨兵机制&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Redis" scheme="https://anohimono.github.io/tags/Redis/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Supermarket Management System(SMS)</title>
-    <link href="https://anohimono.github.io/2024/03173875.html"/>
-    <id>https://anohimono.github.io/2024/03173875.html</id>
-    <published>2024-03-17T08:33:45.790Z</published>
-    <updated>2024-03-17T08:39:03.882Z</updated>
+    <link href="https://anohimono.github.io/2024/03243875.html"/>
+    <id>https://anohimono.github.io/2024/03243875.html</id>
+    <published>2024-03-24T07:13:44.779Z</published>
+    <updated>2024-03-17T08:39:04.000Z</updated>
     
     
       
@@ -40,11 +63,195 @@
   </entry>
   
   <entry>
+    <title>阿里云短信服务</title>
+    <link href="https://anohimono.github.io/2024/032412762.html"/>
+    <id>https://anohimono.github.io/2024/032412762.html</id>
+    <published>2024-03-24T07:13:44.779Z</published>
+    <updated>2024-03-16T14:47:48.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;阿里云短信服务&quot;&gt;&lt;a href=&quot;#阿里云短信服务&quot; class=&quot;headerlink&quot; title=&quot;阿里云短信服务&quot;&gt;&lt;/a&gt;阿里云短信服务&lt;/h2&gt;&lt;h3 id=&quot;1、了解阿里云用户权限操作&quot;&gt;&lt;a href=&quot;#1、了解阿里云用户权限操作&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="SpringBoot" scheme="https://anohimono.github.io/tags/SpringBoot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringCloud</title>
+    <link href="https://anohimono.github.io/2024/03242.html"/>
+    <id>https://anohimono.github.io/2024/03242.html</id>
+    <published>2024-03-24T07:13:44.775Z</published>
+    <updated>2024-03-09T07:56:02.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Spring-Cloud&quot;&gt;&lt;a href=&quot;#Spring-Cloud&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="SpringCloud" scheme="https://anohimono.github.io/tags/SpringCloud/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot + Dubbo + Zookeeper</title>
+    <link href="https://anohimono.github.io/2024/03241.html"/>
+    <id>https://anohimono.github.io/2024/03241.html</id>
+    <published>2024-03-24T07:13:44.775Z</published>
+    <updated>2024-03-06T16:43:06.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;SpringBoot-Dubbo-Zookeeper&quot;&gt;&lt;a href=&quot;#SpringBoot-Dubbo-Zookeeper&quot; class=&quot;headerlink&quot; title=&quot;SpringBoot + Dubbo +</summary>
+        
+      
+    
+    
+    
+    
+    <category term="SpringBoot Dubbo Zookeeper" scheme="https://anohimono.github.io/tags/SpringBoot-Dubbo-Zookeeper/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Redis的缓存穿透、缓存击穿、缓存雪崩</title>
+    <link href="https://anohimono.github.io/2024/03241.html"/>
+    <id>https://anohimono.github.io/2024/03241.html</id>
+    <published>2024-03-24T07:13:44.771Z</published>
+    <updated>2024-03-16T14:47:24.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Redis的缓存穿透、缓存击穿、缓存雪崩&quot;&gt;&lt;a href=&quot;#Redis的缓存穿透、缓存击穿、缓存雪崩&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Redis" scheme="https://anohimono.github.io/tags/Redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Redis学习</title>
+    <link href="https://anohimono.github.io/2024/032460077.html"/>
+    <id>https://anohimono.github.io/2024/032460077.html</id>
+    <published>2024-03-24T07:13:44.771Z</published>
+    <updated>2024-03-23T02:51:18.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Redis学习&quot;&gt;&lt;a href=&quot;#Redis学习&quot; class=&quot;headerlink&quot; title=&quot;Redis学习&quot;&gt;&lt;/a&gt;Redis学习&lt;/h1&gt;&lt;h2 id=&quot;常用数据类型&quot;&gt;&lt;a href=&quot;#常用数据类型&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Redis" scheme="https://anohimono.github.io/tags/Redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux学习</title>
+    <link href="https://anohimono.github.io/2024/032450376.html"/>
+    <id>https://anohimono.github.io/2024/032450376.html</id>
+    <published>2024-03-24T07:13:44.767Z</published>
+    <updated>2024-03-16T14:42:48.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Linux学习&quot;&gt;&lt;a href=&quot;#Linux学习&quot; class=&quot;headerlink&quot; title=&quot;Linux学习&quot;&gt;&lt;/a&gt;Linux学习&lt;/h1&gt;&lt;h2 id=&quot;入门概述&quot;&gt;&lt;a href=&quot;#入门概述&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Linux" scheme="https://anohimono.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JUC并发编程</title>
+    <link href="https://anohimono.github.io/2024/03241.html"/>
+    <id>https://anohimono.github.io/2024/03241.html</id>
+    <published>2024-03-24T07:13:44.763Z</published>
+    <updated>2024-03-24T08:18:09.454Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;JUC并发编程&quot;&gt;&lt;a href=&quot;#JUC并发编程&quot; class=&quot;headerlink&quot; title=&quot;JUC并发编程&quot;&gt;&lt;/a&gt;JUC并发编程&lt;/h1&gt;&lt;h2 id=&quot;1、什么是JUC&quot;&gt;&lt;a href=&quot;#1、什么是JUC&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="JUC" scheme="https://anohimono.github.io/tags/JUC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java多线程</title>
+    <link href="https://anohimono.github.io/2024/03245.html"/>
+    <id>https://anohimono.github.io/2024/03245.html</id>
+    <published>2024-03-24T07:13:44.759Z</published>
+    <updated>2024-03-19T12:21:22.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Java多线程&quot;&gt;&lt;a href=&quot;#Java多线程&quot; class=&quot;headerlink&quot; title=&quot;Java多线程&quot;&gt;&lt;/a&gt;Java多线程&lt;/h2&gt;&lt;h5 id=&quot;1、什么是多线程？&quot;&gt;&lt;a href=&quot;#1、什么是多线程？&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="多线程" scheme="https://anohimono.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Bootstrap5</title>
-    <link href="https://anohimono.github.io/2024/03173875.html"/>
-    <id>https://anohimono.github.io/2024/03173875.html</id>
-    <published>2024-03-17T08:33:45.785Z</published>
-    <updated>2024-03-17T08:38:20.126Z</updated>
+    <link href="https://anohimono.github.io/2024/03243875.html"/>
+    <id>https://anohimono.github.io/2024/03243875.html</id>
+    <published>2024-03-24T07:13:44.755Z</published>
+    <updated>2024-03-17T08:38:22.000Z</updated>
     
     
       
@@ -64,10 +271,10 @@
   
   <entry>
     <title>BeautifulSoup4库</title>
-    <link href="https://anohimono.github.io/2024/03173875.html"/>
-    <id>https://anohimono.github.io/2024/03173875.html</id>
-    <published>2024-03-17T08:33:45.779Z</published>
-    <updated>2024-03-17T08:37:34.918Z</updated>
+    <link href="https://anohimono.github.io/2024/03243875.html"/>
+    <id>https://anohimono.github.io/2024/03243875.html</id>
+    <published>2024-03-24T07:13:44.751Z</published>
+    <updated>2024-03-17T08:37:36.000Z</updated>
     
     
       
@@ -86,80 +293,11 @@
   </entry>
   
   <entry>
-    <title>Redis的缓存穿透、缓存击穿、缓存雪崩</title>
-    <link href="https://anohimono.github.io/2024/03161.html"/>
-    <id>https://anohimono.github.io/2024/03161.html</id>
-    <published>2024-03-16T14:40:36.884Z</published>
-    <updated>2024-03-16T14:47:22.107Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Redis的缓存穿透、缓存击穿、缓存雪崩&quot;&gt;&lt;a href=&quot;#Redis的缓存穿透、缓存击穿、缓存雪崩&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Redis" scheme="https://anohimono.github.io/tags/Redis/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>详解Redis的哨兵模式</title>
-    <link href="https://anohimono.github.io/2024/03163875.html"/>
-    <id>https://anohimono.github.io/2024/03163875.html</id>
-    <published>2024-03-16T06:50:23.552Z</published>
-    <updated>2024-03-16T14:42:47.139Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;详解Redis的哨兵机制&quot;&gt;&lt;a href=&quot;#详解Redis的哨兵机制&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Redis" scheme="https://anohimono.github.io/tags/Redis/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Redis学习</title>
-    <link href="https://anohimono.github.io/2024/031360077.html"/>
-    <id>https://anohimono.github.io/2024/031360077.html</id>
-    <published>2024-03-13T15:39:10.248Z</published>
-    <updated>2024-03-16T14:52:06.777Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Redis学习&quot;&gt;&lt;a href=&quot;#Redis学习&quot; class=&quot;headerlink&quot; title=&quot;Redis学习&quot;&gt;&lt;/a&gt;Redis学习&lt;/h1&gt;&lt;h2 id=&quot;常用数据类型&quot;&gt;&lt;a href=&quot;#常用数据类型&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Redis" scheme="https://anohimono.github.io/tags/Redis/"/>
-    
-  </entry>
-  
-  <entry>
     <title>VMware下centos7开机登陆页面死循环问题详细解决</title>
     <link href="https://anohimono.github.io/2024/031120573.html"/>
     <id>https://anohimono.github.io/2024/031120573.html</id>
     <published>2024-03-11T12:57:00.000Z</published>
-    <updated>2024-03-16T14:42:47.136Z</updated>
+    <updated>2024-03-16T14:42:48.000Z</updated>
     
     
       
@@ -178,57 +316,11 @@
   </entry>
   
   <entry>
-    <title>Linux学习</title>
-    <link href="https://anohimono.github.io/2024/031050376.html"/>
-    <id>https://anohimono.github.io/2024/031050376.html</id>
-    <published>2024-03-10T08:00:08.466Z</published>
-    <updated>2024-03-16T14:42:47.131Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Linux学习&quot;&gt;&lt;a href=&quot;#Linux学习&quot; class=&quot;headerlink&quot; title=&quot;Linux学习&quot;&gt;&lt;/a&gt;Linux学习&lt;/h1&gt;&lt;h2 id=&quot;入门概述&quot;&gt;&lt;a href=&quot;#入门概述&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Linux" scheme="https://anohimono.github.io/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>阿里云短信服务</title>
-    <link href="https://anohimono.github.io/2024/031012762.html"/>
-    <id>https://anohimono.github.io/2024/031012762.html</id>
-    <published>2024-03-09T16:23:49.873Z</published>
-    <updated>2024-03-16T14:47:46.659Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;阿里云短信服务&quot;&gt;&lt;a href=&quot;#阿里云短信服务&quot; class=&quot;headerlink&quot; title=&quot;阿里云短信服务&quot;&gt;&lt;/a&gt;阿里云短信服务&lt;/h2&gt;&lt;h3 id=&quot;1、了解阿里云用户权限操作&quot;&gt;&lt;a href=&quot;#1、了解阿里云用户权限操作&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="SpringBoot" scheme="https://anohimono.github.io/tags/SpringBoot/"/>
-    
-  </entry>
-  
-  <entry>
     <title>如何使用Navicat查看自己的数据库密码</title>
     <link href="https://anohimono.github.io/2024/030735801.html"/>
     <id>https://anohimono.github.io/2024/030735801.html</id>
     <published>2024-03-07T09:32:55.000Z</published>
-    <updated>2024-03-16T14:48:13.881Z</updated>
+    <updated>2024-03-16T14:48:14.000Z</updated>
     
     
       
@@ -247,57 +339,11 @@
   </entry>
   
   <entry>
-    <title>SpringBoot + Dubbo + Zookeeper</title>
-    <link href="https://anohimono.github.io/2024/03061.html"/>
-    <id>https://anohimono.github.io/2024/03061.html</id>
-    <published>2024-03-06T06:08:34.049Z</published>
-    <updated>2024-03-06T16:43:05.728Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;SpringBoot-Dubbo-Zookeeper&quot;&gt;&lt;a href=&quot;#SpringBoot-Dubbo-Zookeeper&quot; class=&quot;headerlink&quot; title=&quot;SpringBoot + Dubbo +</summary>
-        
-      
-    
-    
-    
-    
-    <category term="SpringBoot Dubbo Zookeeper" scheme="https://anohimono.github.io/tags/SpringBoot-Dubbo-Zookeeper/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SpringCloud</title>
-    <link href="https://anohimono.github.io/2024/03062.html"/>
-    <id>https://anohimono.github.io/2024/03062.html</id>
-    <published>2024-03-06T06:08:25.696Z</published>
-    <updated>2024-03-09T07:56:01.200Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Spring-Cloud&quot;&gt;&lt;a href=&quot;#Spring-Cloud&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="SpringCloud" scheme="https://anohimono.github.io/tags/SpringCloud/"/>
-    
-  </entry>
-  
-  <entry>
     <title>JVM学习</title>
     <link href="https://anohimono.github.io/2024/03052.html"/>
     <id>https://anohimono.github.io/2024/03052.html</id>
     <published>2024-03-05T09:32:55.000Z</published>
-    <updated>2024-03-06T14:34:32.125Z</updated>
+    <updated>2024-03-06T14:34:34.000Z</updated>
     
     
       
@@ -318,34 +364,11 @@
   </entry>
   
   <entry>
-    <title>java多线程</title>
-    <link href="https://anohimono.github.io/2024/03045.html"/>
-    <id>https://anohimono.github.io/2024/03045.html</id>
-    <published>2024-03-04T15:32:43.292Z</published>
-    <updated>2024-03-06T04:44:56.245Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Java多线程&quot;&gt;&lt;a href=&quot;#Java多线程&quot; class=&quot;headerlink&quot; title=&quot;Java多线程&quot;&gt;&lt;/a&gt;Java多线程&lt;/h2&gt;&lt;h5 id=&quot;1、什么是多线程？&quot;&gt;&lt;a href=&quot;#1、什么是多线程？&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="多线程" scheme="https://anohimono.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
     <title>MySQL连接错误2003处理方法</title>
     <link href="https://anohimono.github.io/2024/013160.html"/>
     <id>https://anohimono.github.io/2024/013160.html</id>
     <published>2024-01-31T03:00:55.000Z</published>
-    <updated>2024-03-05T13:49:49.801Z</updated>
+    <updated>2024-03-05T13:49:50.000Z</updated>
     
     
       
@@ -368,7 +391,7 @@
     <link href="https://anohimono.github.io/2024/01312.html"/>
     <id>https://anohimono.github.io/2024/01312.html</id>
     <published>2024-01-31T02:55:55.000Z</published>
-    <updated>2024-03-05T16:59:14.895Z</updated>
+    <updated>2024-03-05T16:59:16.000Z</updated>
     
     
       
@@ -391,7 +414,7 @@
     <link href="https://anohimono.github.io/2024/01064.html"/>
     <id>https://anohimono.github.io/2024/01064.html</id>
     <published>2024-01-06T09:45:55.000Z</published>
-    <updated>2024-03-06T15:19:57.600Z</updated>
+    <updated>2024-03-06T15:19:58.000Z</updated>
     
     
       
@@ -414,7 +437,7 @@
     <link href="https://anohimono.github.io/2024/01062.html"/>
     <id>https://anohimono.github.io/2024/01062.html</id>
     <published>2024-01-06T09:32:55.000Z</published>
-    <updated>2024-03-17T08:36:54.441Z</updated>
+    <updated>2024-03-17T08:36:56.000Z</updated>
     
     
       
@@ -437,7 +460,7 @@
     <link href="https://anohimono.github.io/2024/01062.html"/>
     <id>https://anohimono.github.io/2024/01062.html</id>
     <published>2024-01-06T09:32:55.000Z</published>
-    <updated>2024-03-17T08:36:31.625Z</updated>
+    <updated>2024-03-17T08:36:32.000Z</updated>
     
     
       
@@ -452,29 +475,6 @@
     
     
     <category term="微信推送" scheme="https://anohimono.github.io/tags/%E5%BE%AE%E4%BF%A1%E6%8E%A8%E9%80%81/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>acwing算法基础</title>
-    <link href="https://anohimono.github.io/2024/01062.html"/>
-    <id>https://anohimono.github.io/2024/01062.html</id>
-    <published>2024-01-06T09:32:55.000Z</published>
-    <updated>2024-02-18T09:12:10.432Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;acwing算法基础&quot;&gt;&lt;a href=&quot;#acwing算法基础&quot; class=&quot;headerlink&quot; title=&quot;acwing算法基础&quot;&gt;&lt;/a&gt;acwing算法基础&lt;/h1&gt;&lt;h3 id=&quot;DAY-01&quot;&gt;&lt;a href=&quot;#DAY-01&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="数据结构" scheme="https://anohimono.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
